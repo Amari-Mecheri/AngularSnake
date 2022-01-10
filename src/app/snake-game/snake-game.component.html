@@ -1,0 +1,16 @@
+<div class="snakeGame">
+  <div class="board">
+    <BoardWrapper [boardSize]="boardSize"></BoardWrapper>
+  </div>
+  <div class="state">
+    <StateView [boardSize]="boardSize" [highScore]="highScore" [score]="score"
+    [snakeLength]="snakeLength" [snakePosition]="snakePosition"></StateView>
+  </div>
+  <div class="message">
+      <MessageView message="Game Over" *ngIf="!aGameState.GameInProgress()"></MessageView>
+  </div>
+  <div class="help">
+      <HelpView></HelpView>
+  </div>
+</div>
+

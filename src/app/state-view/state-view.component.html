@@ -1,0 +1,15 @@
+<div class="stateView" [style]="stateViewStyle()">
+  <div class="boardSize">Board size :</div>
+  <div [style]="rightColStyle()">{{boardSize.Width}} x {{boardSize.Height}} </div>
+  <div>------------------------------</div>
+  <div>------------</div>
+  <div class="score">Score :</div>
+  <div [style]="rightColStyle()">{{score}}</div>
+  <div class="highScore">HighScore :</div>
+  <div [style]="rightColStyle()">{{highScore}}</div>
+  <div class="snakeLength">Snake Length :</div>
+  <div [style]="rightColStyle()">{{snakeLength}}</div>
+  <div class="snakePosition">Snake Position :</div>
+  <div [style]="rightColStyle()">{{snakePosition.X}} , {{snakePosition.Y}}</div>
+</div>
+

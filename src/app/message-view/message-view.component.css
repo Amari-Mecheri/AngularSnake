@@ -1,0 +1,14 @@
+.messageView{
+  position: relative;
+  color:red;
+  left: 55px;
+  top: 0px;
+  /* transition: left 2s; */
+  animation-name: scroll;
+  animation-duration: 2s;
+}
+
+@keyframes scroll {
+  0%   {left: 100%;}
+  100% {left: 55px;}
+}

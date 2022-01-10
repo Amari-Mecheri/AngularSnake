@@ -1,0 +1,6 @@
+<div class="boardview" [style]="getBoardStyle()">
+  <ng-container *ngFor="let x of range(0,boardSize.Width-1)">
+    <ng-container *ngFor="let y of range(0, boardSize.Height-1)">
+    <div class="spot" id={{getId(x,y)}} [style]="getStyle(x,y)"></div>
+  </ng-container>
+</ng-container>

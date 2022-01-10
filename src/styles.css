@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --headerBackGroundColor: rgb(8, 67, 177);
+  --headerForeColor: rgb(239, 243, 3);
+  --boardViewBackGroundColor: rgb(8, 67, 177);
+  --stateViewBackGroundColor: rgb(8, 67, 177);
+  --stateViewForeColor: rgb(243, 247, 4);
+  --messageViewBackGroundColor: rgb(59, 219, 86);
+  --messageViewForeColor: rgb(2, 32, 6);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
