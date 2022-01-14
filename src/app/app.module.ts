@@ -8,7 +8,6 @@ import { HelpViewComponent } from './help-view/help-view.component';
 import { MessageViewComponent } from './message-view/message-view.component';
 import { SnakeGameComponent } from './snake-game/snake-game.component';
 import { TitleViewComponent } from './title-view/title-view.component';
-import { BoardWrapperComponent } from './board-wrapper/board-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { BoardWrapperComponent } from './board-wrapper/board-wrapper.component';
     MessageViewComponent,
     SnakeGameComponent,
     TitleViewComponent,
-    BoardWrapperComponent,
   ],
   imports: [
     BrowserModule
